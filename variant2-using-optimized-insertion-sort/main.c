@@ -1,5 +1,7 @@
 //Tested in https://www.onlinegdb.com
 //Published on zenodo.org: 10.5281/zenodo.23626176
+//The C-Code is optimized for MSP430FR2355
+
 //BEGIN PROGRAM CODE****************************************************************** 
 #include <stdio.h>
 #include <stdint.h> //Used for fixed-width integer types
