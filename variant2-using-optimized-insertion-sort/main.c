@@ -59,7 +59,6 @@ void InitRunMedianSort(     //Init. running median based on sorting
 //Time complexity:   best case O(1), worst case O(N).
 //Memory complexity:           O(N) for the auxiliary index array.
 //Insertion Sort is a well-known sorting method.
-//Beware: sroting
 
 void RunMedianInsSortOpt(       //Optimized Insertion-Sort Running Median
   MEDIANTYP        *Xnew,       //Xnew= new value from the stream
@@ -103,7 +102,6 @@ void RunMedianInsSortOpt(       //Optimized Insertion-Sort Running Median
     S->Xmedian = S->X[S->e[S->Uhalf]]; //Median in the mittle of the sorted buffer
   }
 }
-
 
 int main(void) {                     //Test program
   uint16_t   Seed = 1119;            //*TEST* Seed for random generator
