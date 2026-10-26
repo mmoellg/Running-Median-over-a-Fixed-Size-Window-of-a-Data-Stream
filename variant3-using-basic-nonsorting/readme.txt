@@ -1,5 +1,5 @@
 # LEAN ALGORITHM: Running Median of a Fixed-Size Window of a Data Stream
-## Basic Nonsorting Algorithm
+## using Basic Nonsorting Algorithm
 
 Copyright (c) 2026, M. Møllgaard — MIT License
 
