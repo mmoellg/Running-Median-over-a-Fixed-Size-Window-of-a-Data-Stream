@@ -87,10 +87,10 @@ performance for data streams containing repeated values.
 Here, N is the number of values in the fixed-size window.
 
 Comparison: Worst case / Best case / Additional memory
-1. Basic Insertion Sort......O(N) / O(N²) / O(N)
+1. Basic Insertion Sort.........O(N) / O(N²) / O(N)
 2. Optimized Insertion Sort..O(1) / O(N) / O(N) indices
-3. Basic Nonsorting ..............O(1) / O(N) / None beyond window
-4. Optimized Nonsorting....O(1) / O(N) / A few counters
+3. Basic Nonsorting ...............O(1) / O(N) / None beyond window
+4. Optimized Nonsorting.....O(1) / O(N) / A few counters
 
 
 ## Testing and Performance
