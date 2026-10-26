@@ -1,1 +1,14 @@
-
+Test results
+i=0000 e=00 n=0003 Xnew=+12 X=+12,+00,+00,+00,+00, Xm=+00
+i=0001 e=01 n=0003 Xnew=-11 X=+12,-11,+00,+00,+00, Xm=+00
+i=0002 e=02 n=0005 Xnew=-15 X=+12,-11,-15,+00,+00, Xm=+00
+i=0003 e=03 n=0004 Xnew=+29 X=+12,-11,-15,+29,+00, Xm=+00
+i=0004 e=04 n=0005 Xnew=-12 X=+12,-11,-15,+29,-12, Xm=-11
+i=0005 e=00 n=0000 Xnew=+34 X=+34,-11,-15,+29,-12, Xm=-11
+i=0006 e=01 n=0005 Xnew=-27 X=+34,-27,-15,+29,-12, Xm=-12
+i=0007 e=02 n=0000 Xnew=-65 X=+34,-27,-65,+29,-12, Xm=-12
+i=0008 e=03 n=0000 Xnew=+53 X=+34,-27,-65,+53,-12, Xm=-12
+i=0009 e=04 n=0005 Xnew=-28 X=+34,-27,-65,+53,-28, Xm=-27
+Q= 30 % O(1) calculations 
+i=id.Stream, e=id.oldest value, n=Steps median calc., Xnew=Newest stream data
+X=..:Unsorted buffer, Xm=Median
