@@ -1,12 +1,13 @@
-/*
 LEAN ALGORITHM: Running Median over a Fixed-Size Window of a Stream - 4 Variants
 
+<pre>
 The four variants has been published on Zenodo.org:
 #1 ¦ Basic     Insertion Sort : https://doi.org/10.5281/zenodo.23601248
 #2 ¦ Optimized Insertion Sort : https://doi.org/10.5281/zenodo.23626176
 #3 ¦ Basic     Nonsorting     : https://doi.org/10.5281/zenodo.23670710
 #4 ¦ Optimized Nonsorting     : https://doi.org/10.5281/zenodo.23671391
 Published with full C source code provided under the terms of the MIT License.
+
 
 #INTRODUCTION
 
@@ -83,6 +84,7 @@ The main characteristics of this approach are:
 +----+--------------------------+------+--------------+---------+
 Where, N is the number of values in the fixed-size window.
 Memory complexity for the additional storage besides the fixed-size window.
+
 
 
 #VARIANTS DESCRIPTION
